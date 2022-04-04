@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane fx:controller="com.example.zajecia_05.Controller" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+    <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    </rowConstraints>
+    <children>
+        <Pane prefHeight="200.0" prefWidth="200.0">
+            <children>
+                <Label layoutX="24.0" layoutY="27.0" text="Name:" />
+                <Label layoutX="17.0" layoutY="67.0" text="Surname:" />
+                <Label layoutX="30.0" layoutY="104.0" text="Age:" />
+                <TextField layoutX="105.0" layoutY="23.0" prefHeight="25.0" prefWidth="467.0" />
+                <TextField layoutX="105.0" layoutY="63.0" prefHeight="25.0" prefWidth="467.0" />
+                <TextField layoutX="105.0" layoutY="100.0" prefHeight="25.0" prefWidth="467.0" />
+                <CheckBox layoutX="10.0" layoutY="148.0" mnemonicParsing="false" onAction="#activateText" text="Student" />
+                <Button layoutX="20.0" layoutY="188.0" mnemonicParsing="false" onAction="#insertText" prefHeight="25.0" prefWidth="561.0" text="Insert" />
+                <TextArea layoutX="14.0" layoutY="227.0" prefHeight="159.0" prefWidth="561.0" />
+                <TextField disable="true" layoutX="107.0" layoutY="144.0" prefHeight="25.0" prefWidth="467.0" />
+            </children>
+        </Pane>
+    </children>
+</GridPane>
